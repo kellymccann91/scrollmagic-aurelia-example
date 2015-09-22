@@ -5,7 +5,7 @@ export class ScrollMagicTest {
     this.controller = new ScrollMagic.Controller();
   }
 
-  activate() {
+  attached() {
     // create a scene
     new ScrollMagic.Scene({
             duration: 100,  // the scene should last for a scroll distance of 100px
